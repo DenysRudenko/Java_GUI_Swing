@@ -201,6 +201,125 @@ the GUI.
 
 ![alt text](/Lab1/images/lab3part4.png)
 
+## Lab4
+### Lab4Part1
+Create a class called Lab4Part1. Create a JFrame that contains a JPanel with FOUR
+check boxes in it. The check boxes will have their text set to the following: “Small
+Font”, “Big Font”, “Very Big Font”, “Huge Font”. Make the four check boxes so that
+only ONE may be selected at a time (Hint: ButtonGroup). Add the check box panel
+to the top of the JFrame. Create and add a JLabel to the center region of the JFrame
+that has the text “Change Font with CheckBoxes”. Make the GUI work so that the
+size of the text in the label changes size based on which check box is selected
+(Small, Big, Very Big, Huge). You may decide the exact size of each text font used.
+
+![alt text](/Lab1/images/lab4part1.png)
+
+### Lab4Part2
+Create a Java program called Lab4Part2. Create a JFrame that has a JMenu called
+‘Streaming Services’. Add at least five menu items with five different Streaming
+services of your choice (e.g. Netflix, NowTV etc.). Add a label to the main frame
+window. Implement listeners on the menu items so that when a particular
+Streaming Service is clicked an image of the correct company logo is shown in the
+label, e.g., select ‘Netflix’ and a picture of the Netflix logo appears
+
+![alt text](/Lab1/images/lab4part2.png)
+
+### Lab4Part3
+Create a JFrame class called Lab4Part3. Create a JFrame with a JMenu called
+‘News’ and a second JMenu called ‘Weather’. Modify the menus as described
+below:
+The News Menu: Add at least TWO menu items to the news menu with the
+following headings ‘Local News’, ‘International News’. When the user clicks the
+corresponding menu option make a CURRENT news related image appear in the
+GUI and also include a scrollable text area to describe the news item (e.g. The
+minimum wage was increased in budget 2024 – the news MUST be current). Add
+a mnemonic and appropriate accelerator to each of the menu items so that the
+menu options can be short-cut.
+The Weather Menu: Add at least TWO menu items to the menu with the following
+headings ‘Local Weather’, ‘International Weather’. When the user clicks the
+corresponding menu option make a CURRENT weather related image appear in
+the GUI and also include a scrollable text area to describe the weather event (e.g.
+Storm Babet, Floods in Cork! – the weather information or event MUST be
+current). Add a mnemonic and appropriate accelerator to each of the menu items
+so that the menu options can be short-cut, i.e., a key combination can be used
+
+![alt text](/Lab1/images/lab4part3.png)
+
+### Lab4Part4
+Create a class called Lab4Part4. Create a JFrame which modifies the ATM Machine
+created in Lab2Part4 so that at least THREE of the functionalities listed in the ATM
+work using listeners for the buttons AND include menus with shortcuts to carry
+out the same functions (any 3 functions can be chosen, e.g., lodge, withdraw, show
+balance). Use at least TWO accelerators and TWO mnemonics in the menu. You
+will need to add some sort of output label to show the response to the button
+pushes and menu selections. [Note: If you didn’t get to do Lab2Part4 then you can
+do the whole thing from the start, or you can focus on the menus only and receive
+marks for those]
+
+![alt text](/Lab1/images/lab4part4.png)
+
+## Lab5
+
+### Lab5Part1
+Create a class called Lab5Part1. Create a JFrame that contains TWO components.
+The first components is a JProgressBar with a minimum value of 0 and a
+maximum value of 100. The second component is a JSlider also with a minimum
+value of 0 and a maximum value of 100. Layout out both components so that they
+are both clearly visible on the JFrame. Add listeners and handlers needed to make
+the JProgressBar mirror the value in the JSlider bar, i.e., if you move the slider bar
+up and down between 0 and 100 the progress bar moves up and down between 0
+and 100 to exactly mirror the movements of the slider.
+
+![alt text](/Lab1/images/lab5part1.png)
+
+### Lab5Part2
+Create a class called Lab5Part2. Create a JFrame that conducts a small survey
+using four panels in a card layout (3 question panels and one for results). On the
+first three cards present three questions to the user which must have ONE
+response only (use radio buttons or check boxes that are contained in a button
+group), e.g., pick your favourite snack from the following Chocolate, Crisps,
+Popcorn etc. The questions should be chosen by you (about whatever you chose).
+The fourth card should show the results chosen from the current user (e.g. this
+user likes Crisps etc.). For full marks use at least one well-defined method to
+modularize the creation of the panels.
+
+![alt text](/Lab1/images/lab5part2.png)
+
+### Lab5Part3
+Create a class called Lab5Part3. Create a JFrame that contains a JPanel with FOUR
+JLabels stacked vertically or horizontally using a box layout (you may choose the
+orientation but you must use box layout). Place a Border around each of the labels
+and fill each label with a blank square\rectangular image (small enough to fit four
+of them in to the interface).
+Add a slider (JSlider) to the interface so that when the user slides left and right on
+the slider a particular image of your choice is shown in the corresponding label,
+i.e., if the slider is all the way left the image shows in the left and all the rest remain
+blank (see the diagram below showing what the interface should show when the
+slider has the value 2 and 3).
+
+![alt text](/Lab1/images/lab5part3.png)
+
+### Lab5Part4
+Create a Java program called Lab5Part4. Create a JFrame that displays
+information about your favourite holiday destination in a JPanel and your
+favourite pastime in a second JPanel. You may choose to display two other pieces
+of information in both panels (cards) but it needs to be unique to you!, e.g., pets,
+hobbies, cars etc. You will use CardLayout to switch between these panels by
+using a JButton AND a JMenuitem (place the menu item to switch panels on a menu
+called ‘View’ at the top of the JFrame, the button can be placed anywhere that
+works on the frame without interfering with the display of the panels (cards)).
+Add an accelerator to the menu so that clicking CTRL-S will switch between the
+panels (cards).
+Each of the panels should have a clearly defined title (with a nice Font) and an area
+to show an image of the destination/pastime and a small description in a
+JTextArea. The exact layout of the GUI is up to you but it must be well laid out in
+each panel. Add both panels to the card layout for switching displays.
+If you use modularization to create the two panels (cards) it will be rewarded in
+this marking scheme (you can modularize the creation of the panels using
+methods or classes).
+
+![alt text](/Lab1/images//lab5part4.png)
+
 
 
 
