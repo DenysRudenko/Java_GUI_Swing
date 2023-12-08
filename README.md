@@ -382,6 +382,17 @@ parameters to the methods when drawing with your own custom methods.)
 
 ![alt text](/Lab1/images/lab6part4.png)
 
+## Exam
+### Question1
+Create a JFrame GUI in Java SWING that mimics a food ordering GUI capable of placing an order of drinks, main meals and desserts. The application will maintain a list of food items ordered in separate bordered sections of the GUI, e.g., drinks will be separated from the list of main meals ordered. Select the items from pre-defined lists or dropdown menus. The GUI will maintain a total cost of the order being placed (you can use arbitrary prices). Place an image of each item ordered on the lists, e.g., order coke and a coke image will appear in the drinks ordered list on the GUI. Include AT LEAST THREE types of order (e.g., drinks, main meal, desserts) and AT LEAST THREE ITEMS in each category (e.g., drinks = coke, water, sprite). Include a title section in the GUI to name the application (with a large font), e.g., “Must-Eat Food Ordering”
+
+![alt text](/Lab1/images/exam.png)
+
+### Question2
+Create a JFrame GUI in Java SWING that contains a menu with listeners added. The menu will have TWO menu items added that will display a message dialog and an input dialog based on which menu item is selected. You may display whatever information you wish on the dialogs as long as they are the correct dialog types.
+
+![alt text](/Lab1/images/exam2.png)
+
 
 
 
