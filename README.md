@@ -320,6 +320,78 @@ methods or classes).
 
 ![alt text](/Lab1/images//lab5part4.png)
 
+## Lab6
+
+### Lab6Part1
+Create a class called Lab6Part1. Make this class a JFrame that is large (the exact
+size is up to you). Add a menu to the JFrame called ‘Games Menu’ that contains two
+menu items called ‘Launch Chess Game’ and ‘Launch Snakes and Ladders’. When
+the user clicks the ‘Launch Chess Game’ menu item show a JInternalFrame within
+the JFrame with a JLabel showing a picture of a chess board (it doesn’t have to
+work as a game just show the image). When the user clicks the ‘Launch Snakes and
+Ladders’ menu item make an internal frame appear in the JFrame with a label in it
+showing an image of the game of Snakes and Ladders. You may choose to show
+different board games if you like: none of them have to work as games but please
+have the menu’s named correctly to reflect the game you are launching. Each game
+image must be launched in a label within an internal frame inside of the JFrame.
+Modularization in the form of methods or classes will be rewarded.
+
+![alt text](/Lab1/images/lab6part1.png)
+
+### Lab6Part2
+Create a class called Lab6Part2. Make this class a JFrame. Create a panel inside
+the JFrame to hold TWO bordered and stacked JLabels (they can be stacked
+horizontally or vertically). Set the first JLabel with the text ‘Choose an image here’
+and the second label should have the text ‘Choose a colour here’. Implement the
+frame to respond to mouse movements so that when the user’s mouse enters
+the first label a JFileChooser pops up and allows the user to choose and display
+an image of their choice in the label. Make the image chosen appear in the label.
+When the user exits the first label make the image disappear. When the user
+mouse enters the second label make a JColorChooser appear and allow the user
+to pick a colour to set the background of the label, i.e., if the user picks green from
+the JColorChooser pallet then the background of the label background changes to
+green (Note: You may have to use setOpaque on labels and you may need to add
+additional panels and layouts to make this work and you could have a small test-
+image in a specific folder to use when testing the file chooser).
+
+![alt text](/Lab1/images/lab6part2.png)
+
+### Lab6Part3
+Create a class called Lab6Part3. Create a JFrame that mimics a space adventure
+game using only dialogs (you can choose a different theme other than space but
+you will have to come up with a way to launch the game to get it started!). The user
+will be presented with portals (represented as dialog options) to enter at the
+beginning of the game (use your imagination here but you must use Dialogs).
+Once a user chooses a portal present at least ONE other decision for them to make
+using dialogs before the games ends (e.g. You are presented with a cup of liquid to
+drink by an alien, do you drink it? Yes No etc.; does drinking the cup kill you or
+make you stronger? etc.). The options MUST be controlled by Dialogs. The end of
+game status should be shown using a dialog. Use a least ONE custom image added
+to a dialog in the dialog sequence (this means you override the default image in
+the option dialog by passing a custom image!!).
+
+![alt text](/Lab1/images/lab6part3.png)
+
+### Lab6Part4
+Create a Java program called Lab6Part4. Create a JFrame that will be used to draw
+2D graphics of a snowman. I accept the drawing may be a little “rough” but try
+and put some shapes together that at least resemble a snowman! Split up the
+drawing using methods, e.g., drawHead(Graphics g), drawLimbs(Graphics g),
+drawBody(Graphics g) – (Note: you will need to pass the graphics context as a
+parameters to the methods when drawing with your own custom methods.)
+
+![alt text](/Lab1/images/lab6part4.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
