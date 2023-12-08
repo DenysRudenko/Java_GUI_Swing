@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java Swing.iml" filepath="$PROJECT_DIR$/.idea/Java Swing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1/Lab1.iml" filepath="$PROJECT_DIR$/Lab1/Lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2/Lab2.iml" filepath="$PROJECT_DIR$/Lab2/Lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/Project.iml" filepath="$PROJECT_DIR$/Project/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab3/lab3.iml" filepath="$PROJECT_DIR$/lab3/lab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab4/lab4.iml" filepath="$PROJECT_DIR$/lab4/lab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab5/lab5.iml" filepath="$PROJECT_DIR$/lab5/lab5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab6/lab6.iml" filepath="$PROJECT_DIR$/lab6/lab6.iml" />
+    </modules>
+  </component>
+</project>
